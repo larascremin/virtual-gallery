@@ -1,0 +1,36 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  background-color: #070707;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-icon {
+  padding: 12px;
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+.menu-icon:hover {
+  filter: brightness(200%);
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu li:hover {
+  color: #c9a581;
+}
+
+.dropdown-menu p {
+  color: #c9a581;
+  border-bottom: 2px solid #c9a581;
+  padding-bottom: 10px;
+}

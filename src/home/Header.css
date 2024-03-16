@@ -1,0 +1,15 @@
+.header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.header h2 {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  color: #c9a581;
+}
