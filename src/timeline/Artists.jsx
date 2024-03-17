@@ -9,7 +9,7 @@ import "./Artists.css";
 function Artists() {
   return (
     <div className="artists">
-      <div className="artist-one">
+      <div className="artist one">
         <img src={ArtistOne} />
         <h3>Michelangelo Merisi Caravaggio</h3>
         <p>1571 - 1610</p>
@@ -18,9 +18,13 @@ function Artists() {
           revolutionary technique of using dramatic light and shadow influenced
           many later artists.
         </p>
-        <p>Famous work: "The Calling of Saint Matthew"</p>
+        <p>
+          Famous work: <br />
+          <i>"The Calling of Saint Matthew"</i>
+        </p>
       </div>
-      <div className="artist-two">
+      <div className="vertical-timeline"></div>
+      <div className="artist two">
         <img src={ArtistTwo} />
         <h3>Artemisia Gentileschi</h3>
         <p>1593 - 1656</p>
@@ -30,7 +34,7 @@ function Artists() {
         </p>
         <p>Famous work: "Judith Slaying Holofernes"</p>
       </div>
-      <div className="artist-three">
+      <div className="artist three">
         <img src={ArtistThree} />
         <h3>Francisco de Zurbarán</h3>
         <p>1598 - 1664</p>
@@ -40,7 +44,7 @@ function Artists() {
         </p>
         <p>Famous work: "The Virgin and Child with Saint John the Baptist"</p>
       </div>
-      <div className="artist-four">
+      <div className="artist four">
         <img src={ArtistFour} />
         <h3>Anthony van Dyck</h3>
         <p>1599 - 1641</p>
@@ -50,7 +54,7 @@ function Artists() {
         </p>
         <p>Famous work: "Charles I at the Hunt"</p>
       </div>
-      <div className="artist-five">
+      <div className="artist five">
         <img src={ArtistFive} />
         <h3>Johannes Vermeer</h3>
         <p>1632 - 1675</p>
