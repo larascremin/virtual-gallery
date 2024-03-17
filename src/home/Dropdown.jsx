@@ -21,7 +21,7 @@ function Dropdown() {
             <p>MENU</p>
           </li>
           <li>
-            <a href="#">Renaissance</a>
+            <a href="#">Baroque</a>
           </li>
           <li>
             <a href="#">Artists</a>

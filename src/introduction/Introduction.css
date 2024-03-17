@@ -1,0 +1,43 @@
+.introduction {
+  max-width: 1200px;
+  margin: 400px auto;
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: 60px 100px;
+  padding: 20px;
+}
+
+.introduction-content {
+  position: relative;
+}
+
+.introduction h1 {
+  grid-column: span 2;
+  text-align: center;
+  font-family: "Cinzel", "Maitree", serif;
+  font-weight: normal;
+}
+
+.introduction h3 {
+  color: #c9a581;
+  margin-bottom: 40px;
+}
+
+.introduction p {
+  margin-bottom: 20px;
+}
+
+.introduction ul {
+  margin: 40px;
+}
+
+.introduction li {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.introduction li:before {
+  content: "✦";
+  margin-right: 10px;
+  color: #c9a581;
+}

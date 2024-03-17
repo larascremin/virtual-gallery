@@ -1,0 +1,10 @@
+.timeline {
+  max-width: 1200px;
+  margin: 400px auto;
+}
+
+.timeline h1 {
+  font-family: "Cinzel", "Maitree", serif;
+  font-weight: normal;
+  margin-bottom: 40px;
+}

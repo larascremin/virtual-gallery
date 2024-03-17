@@ -1,0 +1,32 @@
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.history h1 {
+  text-align: end;
+  font-family: "Cinzel", "Maitree", serif;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.p-first {
+  position: relative;
+  padding-top: 40px;
+}
+
+.p-first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #c9a581;
+}
+
+.history p {
+  margin-bottom: 20px;
+}
