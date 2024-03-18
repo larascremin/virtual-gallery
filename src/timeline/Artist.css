@@ -1,0 +1,13 @@
+.artist {
+  max-width: 320px;
+  margin: 0px auto;
+}
+
+.artist h3 {
+  color: #c9a581;
+  margin: 20px 0px 0px;
+}
+
+.artist p {
+  margin-bottom: 20px;
+}
