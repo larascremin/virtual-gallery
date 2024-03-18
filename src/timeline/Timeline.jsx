@@ -5,9 +5,9 @@ function Timeline() {
   return (
     <div className="timeline">
       <h1>Most Famous Artists: Timeline</h1>
-      <p className="sec">XVI</p>
+      <p className="secStart">XVI</p>
       <Scroll />
-      <p className="sec">XVII</p>
+      <p className="secEnd">XVII</p>
     </div>
   );
 }

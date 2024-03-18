@@ -12,7 +12,40 @@
   text-align: center;
 }
 
-.sec {
+.secStart {
   text-align: center;
   color: #c9a581;
+  position: relative;
+  padding: 10px;
+}
+
+.secStart::before {
+  content: "";
+  position: absolute;
+  position: absolute;
+  left: 48%;
+  top: 94%;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #c9a581;
+}
+
+.secEnd {
+  text-align: center;
+  color: #c9a581;
+  position: relative;
+  padding: 10px;
+}
+
+.secEnd::before {
+  content: "";
+  position: absolute;
+  position: absolute;
+  left: 48%;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #c9a581;
 }
