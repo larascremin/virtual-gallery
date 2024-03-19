@@ -1,0 +1,15 @@
+.paintings h1 {
+  text-align: center;
+  font-family: "Cinzel", "Maitree", serif;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin: 100px auto;
+  gap: 100px;
+  align-items: center;
+}
