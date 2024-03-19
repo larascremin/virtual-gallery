@@ -3,14 +3,14 @@
 }
 
 .frames-img {
-  border-bottom: 20px solid #57270c;
-  border-top: 20px solid #b16032;
-  border-right: 20px solid #874018;
-  border-left: 20px solid #874018;
+  border-bottom: 20px solid #5e3016;
+  border-top: 20px solid #ae6e4b;
+  border-right: 20px solid #8d4e2a;
+  border-left: 20px solid #8d4e2a;
   box-sizing: border-box;
 }
 
-.frames h2 {
+.frames h3 {
   margin-top: 20px;
 }
 

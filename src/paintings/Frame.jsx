@@ -4,7 +4,9 @@ function Frame(props) {
   return (
     <div className="frames">
       <img src={props.image} className="frames-img" />
-      <h2>"{props.workName}"</h2>
+      <h3>
+        <i>"{props.workName}"</i>
+      </h3>
       <p>
         by {props.workPainter} <br /> {props.workYear}
       </p>
