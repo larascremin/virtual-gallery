@@ -213,7 +213,7 @@ function Picture() {
       />
       <Frame
         image={PaintingThirty}
-        workName="Adoration of the Magi"
+        workName="Still-life with Fruits"
         workPainter="Artemisia Gentileschi"
         workYear={1637}
       />
