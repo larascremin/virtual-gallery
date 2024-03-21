@@ -1,0 +1,37 @@
+.footer {
+  background-color: #0c0c0c;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 100px 0px 0px;
+}
+
+.footer-content {
+  text-align: center;
+  position: relative;
+}
+
+.footer h2 {
+  margin-bottom: 40px;
+}
+
+/* .footer h2::before {
+  content: "";
+  position: absolute;
+  position: absolute;
+  left: 42%;
+  top: 37%;
+  bottom: 0;
+  width: 200px;
+  height: 3px;
+  background-color: #c9a581;
+} */
+
+.footer p {
+  margin-bottom: 16px;
+}
+
+.rights {
+  grid-column: span 3;
+  text-align: center;
+  margin-top: 60px;
+}
