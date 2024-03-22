@@ -19,7 +19,7 @@
 }
 
 .introduction h3 {
-  color: #c9a581;
+  color: #945b3c;
   margin-bottom: 40px;
 }
 
@@ -39,5 +39,5 @@
 .introduction li:before {
   content: "✦";
   margin-right: 10px;
-  color: #c9a581;
+  color: #945b3c;
 }

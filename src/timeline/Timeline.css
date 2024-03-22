@@ -14,38 +14,16 @@
 
 .secStart {
   text-align: center;
-  color: #c9a581;
+  color: #945b3c;
   position: relative;
-  padding: 10px;
-}
-
-.secStart::before {
-  content: "";
-  position: absolute;
-  position: absolute;
-  left: 48%;
-  top: 94%;
-  bottom: 0;
-  width: 50px;
-  height: 3px;
-  background-color: #c9a581;
+  padding: 6px;
+  font-weight: bold;
 }
 
 .secEnd {
   text-align: center;
-  color: #c9a581;
+  color: #945b3c;
   position: relative;
-  padding: 10px;
-}
-
-.secEnd::before {
-  content: "";
-  position: absolute;
-  position: absolute;
-  left: 48%;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 3px;
-  background-color: #c9a581;
+  padding: 6px;
+  font-weight: bold;
 }

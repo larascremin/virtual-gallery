@@ -3,13 +3,14 @@
   grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   margin: 0px auto;
+  gap: 100px;
 }
 
 .history h1 {
   text-align: end;
   font-family: "Cinzel", "Maitree", serif;
   font-weight: normal;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .p-first {
@@ -23,8 +24,8 @@
   top: 0;
   left: 0;
   width: 80px;
-  height: 3px;
-  background-color: #c9a581;
+  height: 2px;
+  background-color: #945b3c;
 }
 
 .history p {

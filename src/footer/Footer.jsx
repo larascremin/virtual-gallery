@@ -20,7 +20,10 @@ function Footer() {
           <a href="#">Paintings</a>
         </p>
       </div>
-      <img src={rightHand} className="right-hand" />
+      <div className="right-hand-content">
+        <img src={rightHand} className="right-hand" />
+      </div>
+
       <p className="rights">Created and Owned by Lara Scremin @2024</p>
     </div>
   );

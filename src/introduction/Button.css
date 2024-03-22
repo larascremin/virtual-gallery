@@ -1,9 +1,9 @@
 button {
   background-color: inherit;
-  color: #c9a581;
+  color: #945b3c;
   font-family: inherit;
   font-weight: bold;
-  border: 3px solid #c9a581;
+  border: 2px solid #945b3c;
   margin-top: 20px;
   padding: 10px 20px;
   cursor: pointer;
@@ -12,6 +12,6 @@ button {
 }
 
 button:hover {
-  background-color: #c9a581;
+  background-color: #945b3c;
   color: #020102;
 }
