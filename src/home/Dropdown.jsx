@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import MenuIcon from "../assets/menu.svg";
-import Clicked from "../assets/clicked.svg";
 import "./Dropdown.css";
 
 function Dropdown() {

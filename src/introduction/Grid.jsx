@@ -1,13 +1,13 @@
 import "./Grid.css";
-import Img1 from "../assets/grid1.png";
-import Img2 from "../assets/grid2.png";
-import Img3 from "../assets/grid3.png";
-import Img4 from "../assets/grid4.png";
-import Img5 from "../assets/grid5.png";
-import Img6 from "../assets/grid6.png";
-import Img7 from "../assets/grid7.png";
-import Img8 from "../assets/grid8.png";
-import Img9 from "../assets/grid9.png";
+import Img1 from "../assets/grid1.jpg";
+import Img2 from "../assets/grid2.jpg";
+import Img3 from "../assets/grid3.jpg";
+import Img4 from "../assets/grid4.jpg";
+import Img5 from "../assets/grid5.jpg";
+import Img6 from "../assets/grid6.jpg";
+import Img7 from "../assets/grid7.jpg";
+import Img8 from "../assets/grid8.jpg";
+import Img9 from "../assets/grid9.jpg";
 
 function Grid() {
   return (
