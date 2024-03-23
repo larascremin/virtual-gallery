@@ -7,7 +7,7 @@ function Home() {
       <Header />
       <div className="principal">
         <h1 className="title">Baroque</h1>
-        <p>Vitual Art Gallery</p>
+        <p>Virtual Art Gallery</p>
       </div>
       <div className="vertical-line"></div>
     </div>
