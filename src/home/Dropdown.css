@@ -30,6 +30,18 @@
   padding: 20px;
   background-color: transparent;
   border-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dropdown button:hover {
+  .menu-icon {
+    border-top: 2px solid #e3e3e3;
+  }
+  .menu-icon::after,
+  .menu-icon::before {
+    background-color: #e3e3e3;
+  }
 }
 
 .menu-icon {
@@ -54,6 +66,16 @@
 }
 
 .active .menu-icon {
+  border-top-color: transparent;
+}
+
+.active button:hover {
+  .menu-icon {
+    border-top-color: transparent !important;
+  }
+}
+
+.active .menu-icon:hover {
   border-top-color: transparent;
 }
 

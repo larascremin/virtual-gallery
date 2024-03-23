@@ -1,13 +1,11 @@
 import "./Paintings.css";
-import Gallery from "./Gallery";
+import Filter from "./Filter";
 
 function Paintings() {
   return (
     <div className="paintings" id="paintings">
       <h1>Painting Gallery</h1>
-      <div className="gallery">
-        <Gallery />
-      </div>
+      <Filter />
     </div>
   );
 }

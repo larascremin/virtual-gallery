@@ -1,31 +1,44 @@
 import React, { useState } from "react";
 
-function Filter({ paintings, setFilteredPaintings }) {
-  const [searchTerm, setSearchTerm] = useState("");
+import PaintingOne from "../assets/pearl-earring.jpg";
 
-  const handleSearch = () => {
-    const filtered = paintings.filter((painting) =>
-      painting.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredPaintings(filtered);
-  };
+import { Pictures } from "./Pictures";
+import "./Filter.css";
 
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter") {
-      handleSearch();
-    }
-  };
+function Filter() {
+  const [input, setInput] = useState("");
 
   return (
     <div className="filter">
-      <input
-        type="text"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        onKeyPress={handleKeyPress}
-        placeholder="Search painting name..."
-      />
-      <button onClick={handleSearch}>Search</button>
+      <div className="search-content">
+        <h2>✦</h2>
+        <input
+          type="text"
+          placeholder="Type to search..."
+          className="search"
+          onChange={(e) => setInput(e.target.value)}
+        ></input>
+        <h2>✦</h2>
+      </div>
+
+      <ul className="list">
+        {Pictures.filter(
+          (picture) =>
+            picture.workName.toLowerCase().includes(input) ||
+            picture.workPainter.toLowerCase().includes(input) ||
+            picture.workYear.toString().includes(input)
+        ).map((picture) => (
+          <li key={picture.id} className="pictures">
+            <img src={picture.image} className="frames-img" />
+            <h4>
+              <i>"{picture.workName}"</i>
+            </h4>
+            <p>
+              by {picture.workPainter}, {picture.workYear}
+            </p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

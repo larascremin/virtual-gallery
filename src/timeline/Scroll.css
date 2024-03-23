@@ -5,25 +5,24 @@
 
 .scroll {
   margin: 0px auto;
-  max-width: 34.15em;
+  max-width: 30.15em;
 }
 
 .checkpoint {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em 0em;
   position: relative;
 }
 
 .checkpoint:nth-child(odd) {
   border-left: 2px solid #945b3c;
   padding-left: 3em;
-  transform: translateX(17em);
+  transform: translateX(15em);
 }
 
 .checkpoint:nth-child(even) {
   border-right: 2px solid #945b3c;
   padding-right: 3em;
-  transform: translateX(-17em);
+  transform: translateX(-15em);
 }
 
 .checkpoint:nth-child(odd) div::before,
@@ -40,9 +39,9 @@
 }
 
 .checkpoint:nth-child(odd) div::before {
-  left: -7.7em;
+  left: -5.8em;
 }
 
 .checkpoint:nth-child(even) div::before {
-  right: -7.7em;
+  right: -5.7em;
 }
