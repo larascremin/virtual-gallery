@@ -4,11 +4,11 @@ function Frame(props) {
   return (
     <div className="frames">
       <img src={props.image} className="frames-img" />
-      <h3>
+      <h4>
         <i>"{props.workName}"</i>
-      </h3>
+      </h4>
       <p>
-        by {props.workPainter} <br /> {props.workYear}
+        by {props.workPainter}, {props.workYear}
       </p>
     </div>
   );

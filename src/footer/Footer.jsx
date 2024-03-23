@@ -1,23 +1,23 @@
-import "./Footer.css";
 import leftHand from "../assets/left-hand.png";
 import rightHand from "../assets/right-hand.png";
+
+import Creator from "../home/Creator";
+import "./Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
       <img src={leftHand} className="left-hand" />
       <div className="footer-content">
-        <h2 className="creator">
-          <a href="#">The Creator</a>
-        </h2>
+        <Creator />
         <p>
-          <a href="#">Baroque</a>
+          <a href="#introduction">Baroque</a>
         </p>
         <p>
-          <a href="#">Artist</a>
+          <a href="#artists">Artist</a>
         </p>
         <p>
-          <a href="#">Paintings</a>
+          <a href="#paintings">Paintings</a>
         </p>
       </div>
       <div className="right-hand-content">

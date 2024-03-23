@@ -3,7 +3,7 @@ import Gallery from "./Gallery";
 
 function Paintings() {
   return (
-    <div className="paintings">
+    <div className="paintings" id="paintings">
       <h1>Painting Gallery</h1>
       <div className="gallery">
         <Gallery />

@@ -4,7 +4,7 @@ import "./Introduction.css";
 
 function Introduction() {
   return (
-    <div className="introduction">
+    <div className="introduction" id="introduction">
       <h1>The Baroque Art</h1>
       <div className="introduction-content">
         <h3>A Journey into Art and Culture</h3>

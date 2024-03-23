@@ -14,7 +14,7 @@ function Scroll() {
     <>
       <Reveal />
       <div className="scroll">
-        <div className="checkpoint" id="one">
+        <div className="checkpoint">
           <Artist
             onShow={true}
             image={ArtistOne}
@@ -26,7 +26,7 @@ function Scroll() {
             work="The Calling of Saint Matthew"
           />
         </div>
-        <div className="checkpoint" id="two">
+        <div className="checkpoint">
           <Artist
             onShow={true}
             image={ArtistTwo}
@@ -37,18 +37,17 @@ function Scroll() {
             work="Judith Slaying Holofernes"
           />
         </div>
-        <div className="checkpoint" id="three">
+        <div className="checkpoint">
           <Artist
             onShow={true}
             image={ArtistThree}
             name="Francisco de Zurbarán"
             age="1598 - 1664"
-            description="His ability to capture detail and his distinctive color palette
-            are hallmarks of his art."
-            work="The Virgin and Child with Saint John the Baptist"
+            description="He Transformed what first appears to be a simple still life into a powerful symbol of religious devotion."
+            work="Saint Francis in Meditation"
           />
         </div>
-        <div className="checkpoint" id="four">
+        <div className="checkpoint">
           <Artist
             onShow={true}
             image={ArtistFour}
@@ -59,7 +58,7 @@ function Scroll() {
             work="Charles I at the Hunt"
           />
         </div>
-        <div className="checkpoint" id="five">
+        <div className="checkpoint">
           <Artist
             onShow={true}
             image={ArtistFive}

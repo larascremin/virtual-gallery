@@ -31,3 +31,8 @@
 .history p {
   margin-bottom: 20px;
 }
+
+.highlight {
+  color: #945b3c;
+  font-weight: bold;
+}

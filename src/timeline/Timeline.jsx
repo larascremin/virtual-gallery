@@ -3,7 +3,7 @@ import Scroll from "./Scroll";
 
 function Timeline() {
   return (
-    <div className="timeline">
+    <div className="timeline" id="artists">
       <h1>Most Famous Artists: Timeline</h1>
       <p className="secStart">XVI</p>
       <Scroll />

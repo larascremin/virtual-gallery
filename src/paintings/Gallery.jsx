@@ -1,5 +1,3 @@
-import "./Gallery.css";
-import Frame from "./Frame";
 import PaintingOne from "../assets/pearl-earring.png";
 import PaintingTwo from "../assets/jane-grey.png";
 import PaintingThree from "../assets/narcissus.png";
@@ -32,6 +30,8 @@ import PaintingTNine from "../assets/magi.png";
 import PaintingThirty from "../assets/still-life.png";
 import PaintingThOne from "../assets/denial.png";
 import PaintingThTwo from "../assets/patiente.png";
+
+import Frame from "./Frame";
 
 function Picture() {
   return (

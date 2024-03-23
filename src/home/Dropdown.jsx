@@ -5,29 +5,36 @@ import "./Dropdown.css";
 
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleClass = () => {
+    setIsActive(!isActive);
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <div className="dropdown">
-      <a onClick={toggleMenu} className="dropdown-toggle">
-        <img src={MenuIcon} className="menu-icon" />
-      </a>
+    <div className={isActive ? "dropdown active" : "dropdown"}>
+      <button
+        onClick={() => {
+          toggleClass();
+          toggleMenu();
+        }}
+      >
+        <span className="menu-icon"> </span>
+      </button>
       {isOpen && (
         <ul className="dropdown-menu">
           <li>
-            <p>MENU</p>
+            <a href="#introduction">Baroque</a>
           </li>
           <li>
-            <a href="#">Baroque</a>
+            <a href="#artists">Artists</a>
           </li>
           <li>
-            <a href="#">Artists</a>
-          </li>
-          <li>
-            <a href="#">Paintings</a>
+            <a href="#paintings">Paintings</a>
           </li>
         </ul>
       )}

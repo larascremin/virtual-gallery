@@ -1,4 +1,4 @@
-button {
+.introduction-button {
   background-color: inherit;
   color: #945b3c;
   font-family: inherit;
@@ -11,7 +11,7 @@ button {
   position: absolute;
 }
 
-button:hover {
+.introduction-button:hover {
   background-color: #945b3c;
   color: #020102;
 }
