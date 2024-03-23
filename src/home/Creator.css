@@ -1,0 +1,10 @@
+.creator {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  color: #945b3c;
+  transition: 0.3s;
+}
+
+.creator:hover {
+  color: #f2f2f2;
+}
