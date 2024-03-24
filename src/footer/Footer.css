@@ -33,5 +33,12 @@
 }
 
 .right-hand-content {
+  display: flex;
   justify-content: right;
+}
+
+@media (max-width: 1200px) {
+  .right-hand-content {
+    display: block;
+  }
 }
