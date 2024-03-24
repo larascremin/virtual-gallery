@@ -24,9 +24,9 @@ function Filter() {
       <ul className="list">
         {Pictures.filter(
           (picture) =>
-            picture.workName.toLowerCase().includes(input) ||
-            picture.workPainter.toLowerCase().includes(input) ||
-            picture.workYear.toString().includes(input)
+            picture.workName.toLowerCase().includes(input.toLowerCase()) ||
+            picture.workPainter.toLowerCase().includes(input.toLowerCase()) ||
+            picture.workYear.toString().includes(input.toLowerCase())
         ).map((picture) => (
           <li key={picture.id} className="pictures">
             <img src={picture.image} className="frames-img" />

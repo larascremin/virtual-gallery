@@ -54,7 +54,7 @@
 
 @media (max-width: 800px) {
   .history {
-    padding: 100px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
   }

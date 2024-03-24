@@ -90,11 +90,8 @@
     transform: translateX(0em);
   }
 
-  .checkpoint:nth-child(odd) div::before {
-    left: -2.2em;
-  }
-
+  .checkpoint:nth-child(odd) div::before,
   .checkpoint:nth-child(even) div::before {
-    right: -2.2em;
+    display: none;
   }
 }
