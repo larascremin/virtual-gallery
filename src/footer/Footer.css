@@ -33,6 +33,5 @@
 }
 
 .right-hand-content {
-  display: flex;
   justify-content: right;
 }

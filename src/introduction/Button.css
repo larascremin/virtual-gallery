@@ -15,3 +15,9 @@
   background-color: #945b3c;
   color: #020102;
 }
+
+@media (max-width: 1100px) {
+  .introduction-button {
+    display: flex;
+  }
+}

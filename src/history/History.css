@@ -4,6 +4,7 @@
   max-width: 1200px;
   margin: 0px auto;
   gap: 100px;
+  padding: 20px;
 }
 
 .history h1 {
@@ -35,4 +36,30 @@
 .highlight {
   color: #945b3c;
   font-weight: bold;
+}
+
+@media (max-width: 1040px) {
+  .history {
+    gap: 20px;
+  }
+
+  .history h1 {
+    margin-bottom: 20px;
+  }
+
+  .p-first {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .history {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .history img {
+    margin-bottom: 60px;
+  }
 }

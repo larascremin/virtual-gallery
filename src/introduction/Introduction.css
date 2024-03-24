@@ -41,3 +41,37 @@
   margin-right: 10px;
   color: #945b3c;
 }
+
+@media (max-width: 1200px) {
+  .introduction {
+    gap: 60px 20px;
+  }
+
+  .introduction ul {
+    margin: 40px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 60px 20px;
+    padding: 20px 100px;
+    text-align: center;
+  }
+
+  .introduction ul {
+    margin-bottom: 80px;
+  }
+
+  .introduction h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introduction {
+    padding: 20px 20px;
+  }
+}

@@ -45,3 +45,56 @@
 .checkpoint:nth-child(even) div::before {
   right: -5.7em;
 }
+
+@media (max-width: 1000px) {
+  .scroll {
+    margin: 0px auto;
+    max-width: 24.15em;
+  }
+
+  .checkpoint:nth-child(odd) {
+    transform: translateX(12em);
+    padding-left: 0;
+  }
+
+  .checkpoint:nth-child(even) {
+    border-right: 2px solid #945b3c;
+    padding-right: 0;
+    transform: translateX(-12em);
+  }
+
+  .checkpoint:nth-child(odd) div::before {
+    left: -4.2em;
+  }
+
+  .checkpoint:nth-child(even) div::before {
+    right: -4.2em;
+  }
+}
+
+@media (max-width: 800px) {
+  .scroll {
+    max-width: 60em;
+    padding: 20px;
+  }
+
+  .checkpoint:nth-child(odd) {
+    border-left: none;
+    padding-left: 0em;
+    transform: translateX(0em);
+  }
+
+  .checkpoint:nth-child(even) {
+    border-right: none;
+    padding-right: 0;
+    transform: translateX(0em);
+  }
+
+  .checkpoint:nth-child(odd) div::before {
+    left: -2.2em;
+  }
+
+  .checkpoint:nth-child(even) div::before {
+    right: -2.2em;
+  }
+}
