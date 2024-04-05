@@ -1,6 +1,7 @@
 ### VIRTUAL ART GALLERY 🖼️
 
-This is a page for the appreciation of Baroque art and display of the most important paintings of this style, with special effects created by React. Take a look:
+This is a webpage for appreciation of Baroque art and display of the most important paintings of this style,<br/>
+with special effects created by React, version @18,2,0. Take a look:
 
 👉 https://baroque-gallery.vercel.app
 
@@ -8,13 +9,23 @@ This is a page for the appreciation of Baroque art and display of the most impor
 
 ### Features
 
-- I used React, version @18.2.0, for creating effects. In the timeline section, there's a content reveal effect using the page's height. <br/>
+- I used React for creating effects. In the timeline section, there's a content reveal effect using the page's inner height. <br/>
 - For the dropdown menu, I created a click interaction that adds or removes classes for animation to work. <br/>
 - In the paintings section, it's possible to search for a name, painter, or year of the artwork using the search bar. <br/>
-- About the design, I created the prototype of the page using Figma, and all images went through squoosh.app so they wouldn't weigh down the page.
+- I created the prototype of the page using Figma, and all images went through squoosh.app so they wouldn't weigh down the page.
 
 ##
 
 ### How to Contribute
 
 Feel free to contribute improvements to the source code or report issues by opening an issue. Enjoy the paintings!
+
+##
+<div> 
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  <img src="https://img.shields.io/badge/Figma-311b4a?style=for-the-badge&logo=figma&logoColor=white">
+  
+</div>
+  
+   
