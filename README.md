@@ -1,9 +1,9 @@
-### VIRTUAL ART GALLERY 🖼️
+### 🖼️ VIRTUAL ART GALLERY 
 
 This is a webpage for appreciation of Baroque art and display of the most important paintings of this style,<br/>
-with special effects created by React, version @18,2,0. Take a look:
+with special effects created by React, version @18.2.0. Take a look:
 
-👉 https://baroque-gallery.vercel.app
+See the gallery here -> https://baroque-gallery.vercel.app
 
 ##
 
@@ -16,16 +16,10 @@ with special effects created by React, version @18,2,0. Take a look:
 
 ##
 
-### How to Contribute
-
-Feel free to contribute improvements to the source code or report issues by opening an issue. Enjoy the paintings!
-
-##
 <div> 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
   <img src="https://img.shields.io/badge/Figma-311b4a?style=for-the-badge&logo=figma&logoColor=white">
-  
 </div>
   
    
