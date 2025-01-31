@@ -10,7 +10,7 @@ See the gallery here -> https://baroque-gallery.vercel.app
 - React for creating effects. In the timeline section, there's a content reveal effect using the page's inner height. <br/>
 - For the dropdown menu, I created a click interaction that adds or removes classes for animation to work. <br/>
 - In the paintings section, it's possible to search for a name, painter, or year of the artwork using the search bar. <br/>
-- I created the prototype using Figma, and all images went through squoosh.app so they wouldn't weigh down the page.
+- I created the prototype using Figma, and all images went through squoosh.app, to not weigh down the page.
 
 ##
 
