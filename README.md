@@ -15,9 +15,9 @@ See the gallery here -> https://baroque-gallery.vercel.app
 ##
 
 <div> 
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  <img src="https://img.shields.io/badge/Figma-311b4a?style=for-the-badge&logo=figma&logoColor=white">
+  <img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB">
+  <img src="https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white">
 </div>
   
    
